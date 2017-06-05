@@ -1,8 +1,8 @@
 # ember-js-getting-started
 
-A barebones Ember.js app, which can easily be deployed to Heroku.
+A barebones FastBoot Ember.js app, which can easily be deployed to Heroku.
 
-**This app is deployed as a static app, if you would like to try a one click deploy of a FastBoot app check out [this branch](https://github.com/heroku/ember-js-getting-started/tree/fastboot).**
+This app is deployed as a FastBoot app, if you would like to try a one click deploy of a static app check out [master](https://github.com/heroku/ember-js-getting-started/tree/master).
 
 ## Prerequisites
 
@@ -18,21 +18,22 @@ You will need the following things properly installed on your computer.
 ```sh
 $ git clone git@github.com:heroku/ember-js-getting-started.git
 $ cd ember-js-getting-started
+$ git checkout fastboot
 $ yarn install
-$ ember server
+$ ember serve
 ```
-Your app should now be running on [localhost:4200](http://localhost:4200/).
+Your app should now be running on [localhost:3000](http://localhost:3000/).
 
 ## Deploying to Heroku
 
 ```sh
 $ heroku create --buildpack https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/emberjs.tgz
-$ git push heroku master
+$ git push heroku fastboot:master
 $ heroku open
 ```
 or
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/heroku/ember-js-getting-started)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/heroku/ember-js-getting-started/tree/fastboot)
 
 ## Documentation
 

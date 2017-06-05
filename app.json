@@ -1,6 +1,6 @@
 {
   "name": "Ember.js Getting Started",
-  "description": "A sample Ember.js app deployed to Heroku",
+  "description": "A sample Ember.js Fastboot app deployed to Heroku",
   "repository": "https://github.com/heroku/ember-js-getting-started",
   "logo": "https://heroku-www-files.s3.amazonaws.com/getting-started/ember.svg",
   "keywords": ["ember.js", "static"],
